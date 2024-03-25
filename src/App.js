@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Slider from './component/Slider';
+import "./component/Slider.css"
 
 function App() {
   return (
     <div className="App">
-     <h1 style={{ color:'red', fontWeight: 'bold' }}>Test Deployement </h1>
+      <Slider />
     </div>
   );
 }
